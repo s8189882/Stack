@@ -67,7 +67,6 @@ public class LinkedLists<T extends Comparable<T>> {
 	public void printLinkedList() {
 		Node<T> thisNode = head;
 		
-		System.out.println();
 		if (thisNode == null) 
 			System.out.println("No elements in the list.\n");
 		else {
