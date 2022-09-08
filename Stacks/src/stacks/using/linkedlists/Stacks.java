@@ -35,7 +35,7 @@ public class Stacks<T extends Comparable<T>> {
 			System.out.println("\nStack Underflow!\nNo more elements to pop.");
 		}
 		else {
-			System.out.println("\nSuccessfully popped " + list.head.data + " from the stack.");
+			System.out.println("\n\nSuccessfully popped " + list.head.data + " from the stack.");
 			list.pop(list.head.data);
 			top--;
 		}
